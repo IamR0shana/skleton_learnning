@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:plum;
+    padding: 20px 20px;
+}
+.screen {
+    
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+.screen .header {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100px;
+}
+.screen .header .left {
+    background-color: palevioletred;
+    float: left;
+    width: 50%;
+    height: 80px;
+}
+.screen .header .right {
+    background-color: skyblue;
+    float: right;
+    width: 50%;
+    height: 80px;
+}
+.header .left .cadr {
+    border: 2px solid black;
+    width: 22%;
+    height: 80px;
+    margin-left: 17px;
+    float: left;
+}
+.header .right .cadr {
+    border: 2px solid black;
+    width: 98%;
+    height: 80px;
+    float: left;
+}
+.screen .posts {
+    background-color:#ffc3c3;
+    width: 100%;
+    height: 270px;
+}
+.screen .posts .left {
+    background-color: rgb(178, 232, 232);
+    width: 50%;
+    float: left;
+    height: 250px;
+}
+.screen .posts .right {
+    background-color: teal;
+    float: right;
+    width: 50%;
+    height: 250px;
+}
+.posts .right .cadr {
+    border: 2px solid black;
+    width: 98%;
+    height: 100%;
+    float: left;
+}
+.posts .left .cadr {
+    border: 2px solid black;
+    width: 95%;
+    height: 19%;
+    margin-left: 15px;
+    float: left;
+}
+.posts .left .cadr2 {
+    border: 2px solid black;
+    width: 95%;
+    margin: 20px 0 0 15px;
+    height: 46%;
+    float: left;
+}
+.posts .left .cadr3 {
+    border: 2px solid black;
+    width: 95%;
+    height: 19%;
+    margin: 20px 0 0 15px;
+    float: left;
+}
+.posts2 {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 1000px;
+}
