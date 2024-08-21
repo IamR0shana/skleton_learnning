@@ -3,105 +3,176 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:plum;
-    padding: 20px 20px;
-}
+
 .screen {
-    background-color: white;
     width: 100%;
     height: auto;
+    background: rgb(124,124,124);
+    background: linear-gradient(90deg, rgba(124,124,124,1) 0%, rgba(73,73,73,1) 25%, rgba(124,124,124,1) 51%, rgba(73,73,73,1) 79%, rgba(124,124,124,1) 100%);
 }
+
+/*header*/
+
 .screen .header {
-    background-color: #f1f1f1;
     width: 100%;
     height: 100px;
     padding: 0 0 20px 0;
 }
 .screen .header .left {
-    background-color: palevioletred;
     float: left;
     width: 50%;
     height: 100%;
+    text-align: center;
+    padding: 10px 0 0 0;
 }
 .screen .header .right {
-    background-color: skyblue;
     float: right;
     width: 50%;
     height: 100%;
+    padding: 10px;
 }
 .header .left .card {
-    border: 2px solid black;
+    color: rgb(1, 1, 90);
+    font-size: 20px;
+    padding-top: 13px;
     width: 22%;
-    height: 100%;
-    margin-left: 17px;
+    height: 75%;
     float: left;
 }
-.header .right .card {
-    border: 2px solid black;
+.header .left .card:hover{
+    color: white;
+}
+.header .left .cardd{
+    border: 0 solid white;
+    background-color: white;
+    color: rgb(1, 1, 90);
+    width: 22%;
+    height: auto;
+    border-radius: 70px;
+    float: left;
+    padding:10px;
+    margin-top: 5px;
+    font-weight: bold ;
+    font-size: 18px;
+    
+}
+.header .left .cardd:hover{
+    background-color: rgb(1, 1, 90);
+    color: white;
+}
+.header .right {
     width: 98%;
     height: 100%;
-    float: left;
 }
+.header .right img{
+    float: right;
+    width: auto;
+    height: 100%;
+}
+.header .right h{
+    color: rgb(1, 1, 90)  ;
+    font-size: 50px;
+    font-weight: bold;
+    float: right;
+    margin: 0 13px 0 0 ;
+    width: auto;
+    height: 100%;
+}
+.header .right input[type=text] {
+    background-color: rgb(193, 193, 193);
+    color: rgb(1, 1, 90) ;
+    float: right;
+    padding: 6px;
+    margin: 13px 16px 0 0;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;  
+  }
+  
+
+/*posts*/
+
 .screen .posts {
-    background-color:#ffc3c3;
     width: 100%;
     height: 270px;
     padding: 0 0 20px 0;
 }
 .screen .posts .left {
-    background-color: rgb(178, 232, 232);
     width: 40%;
     float: left;
     height: 100%;
 }
 .screen .posts .right {
-    background-color: teal;
     float: right;
     width: 60%;
-    height: 100%;
+    height: 95%;
+    
 }
 .posts .right .card {
-    border: 2px solid black;
     width: 98%;
     height: 100%;
     float: left;
     margin-left: 3px;
 }
+.posts .right .card img{
+    width: 75%;
+    height: 100% ;
+    float: right;
+    margin-right: 90px;
+}
 .posts .left .card {
-    border: 2px solid black;
     width: 95%;
     height: 19%;
     margin-left: 15px;
     float: left;
 }
+.posts .left .card a{
+    color:  rgb(1, 1, 90)  ;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 0 35px;
+}
 .posts .left .card2 {
-    border: 2px solid black;
     width: 95%;
     margin: 20px 0 0 15px;
+    padding-left: 35px;
     height: 46%;
     float: left;
 }
+.posts .left .card2 a{
+    font-size: 18px;
+}
 .posts .left .card3 {
-    border: 2px solid black;
-    width: 95%;
+    border: 0 solid black;
+    border-radius: 4px;
+    background: rgb(35,35,35);
+    background: linear-gradient(90deg, rgba(35,35,35,1) 0%, rgba(1,1,90,1) 49%, rgba(35,35,35,1) 100%);
+    width: 100%;
     height: 19%;
-    margin: 20px 0 0 15px;
+    margin: 8px 0 0 50px;
     float: left;
 }
+.posts .left .card3 img{
+    width: auto;
+    height: 95%;
+    margin-left: 75px;
+    float: left;
+    margin-left: 100px;
+}
+.posts .left .card3 img:hover{
+    background-color:gray ;
+}
+
 .screen .posts2 {
-    background-color: #0011ff;
     width: 100%;
     height: 5400px;
 }
 .screen .posts2 .left {
-    background-color: #ff5d96;
     width: 60%;
     float: left;
     height: 100%;
 }
 .screen .posts2 .right {
-    background-color: #878787;
     float: right;
     width: 40%;
     height: 100%;
