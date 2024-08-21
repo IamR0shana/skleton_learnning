@@ -29,7 +29,7 @@
     float: right;
     width: 50%;
     height: 100%;
-    padding: 10px;
+    padding: 10px 35px 0 0;
 }
 .header .left .card {
     color: rgb(1, 1, 90);
@@ -66,8 +66,8 @@
 }
 .header .right img{
     float: right;
-    width: auto;
-    height: 100%;
+    max-width: 100%;    
+    height: 100;
 }
 .header .right h{
     color: rgb(1, 1, 90)  ;
