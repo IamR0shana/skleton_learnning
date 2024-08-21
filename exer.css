@@ -43,8 +43,8 @@
     color: white;
 }
 .header .left .cardd{
-    border: 0 solid white;
-    background-color: white;
+    border: 0 solid rgb(193, 193, 193);
+    background-color:rgb(193, 193, 193);
     color: rgb(1, 1, 90);
     width: 22%;
     height: auto;
