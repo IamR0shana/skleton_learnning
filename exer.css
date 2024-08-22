@@ -163,6 +163,9 @@
     background-color:gray ;
 }
 
+
+/* posts2 */
+ 
 .screen .posts2 {
     width: 100%;
     height: 5400px;
@@ -184,11 +187,42 @@
     height: 250px;
     float: left;
 }
+
+.posts2 .left .card .games{
+    height: auto;
+    width: 29%;
+    float: left;
+    margin-left: 35px;
+}
+.posts2 .left .card .games img{
+    width: 100%;
+    height: auto;
+}
+.posts2 .left .card .games img:hover{
+    border: 1px solid rgb(193, 193, 193) ;
+}
+
 .posts2 .right .card {
-    border: 2px solid black;
     width: 60%;
     height: 400px;
     float: left;
+}
+.posts2 .right .card .text{
+    border: 0 solid black;
+    border-radius: 4px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,255,255,1) 99%);
+    width: 100%;
+    height: 13%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.posts2 .right .card img{
+    margin-top: 20px;
+    width: 100%;
+    height: 82%;
 }
 .posts2 .right .card2 {
     border: 2px solid black;
@@ -196,4 +230,32 @@
     height: 400px;
     margin: 0 0 20px 15px ;
     float: left;
+}
+.posts2 .right .card2 .text{
+    color:  rgb(193, 193, 193);
+    border: 0 solid black;
+    border-radius: 4px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,158,1) 99%);
+    width: 100%;
+    height: 18%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.posts2 .right .card2 .text .text2{
+    color:  rgb(135, 134, 134);
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.posts2 .right .card2 button{
+    background-color:rgba(0,255,255,1) ;
+    width: 35%;
+    height: auto;
+    border: none;
+}
+.posts2 .right .card2 button:hover{
+    background-color:rgb(0,0,0) ;
+    color: rgb(193, 193, 193);
 }
