@@ -254,6 +254,23 @@
 .posts2 .left .card .bottom .img3 img:hover{
     border: 1px solid rgb(193, 193, 193) ;
 }
+.posts2 .left .card .logo img{
+    width: 30%;
+    height: 25%;
+    float: left;
+    margin-left: 35px;
+}
+.posts2 .left .card .text3{
+    float: right;
+    font-size: 17px;
+    margin: 59px 20px;
+    color: rgb(17, 0, 255);
+}
+.posts2 .left .card video{
+    margin-left: 35px;
+    width:400px;
+    height: 100%;
+}
 .posts2 .right .card {
     width: 60%;
     height: 400px;
