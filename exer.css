@@ -271,11 +271,24 @@
     width:400px;
     height: 100%;
 }
+
 .posts2 .right .card {
     width: 60%;
     height: 400px;
     float: left;
 }
+.posts2 .left .card{
+    color: rgb(1, 1, 90) ;
+    font-weight: bold;
+}
+.posts2 .left .card input[type=text] {
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 1, 90) ;
+    margin: 13px 45px 0 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;  
+  }
 .posts2 .right .card .text{
     color: rgb(193, 193, 193);
     border: 0 solid black;
